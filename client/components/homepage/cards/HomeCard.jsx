@@ -38,8 +38,8 @@ const HomeCard = ({
         }
     }
     return (
-        <div className='w-[350px] lg:w-[550px] min-h-[600px] rounded-3xl bg-blend-saturation backdrop-blur-xl backdrop:slide-out-to-right-72 bg-gray-100 flex flex-wrap lg:flex-nowrap py-4  items-center justify-center shadow-xl shadow-[rgba(0,0,0,0.1)] gap-2'>
-            <h3 className='text-3xl text-black font-bold px-2 text-center'>
+        <div className='w-[350px] lg:w-full min-h-[600px] rounded-3xl bg-blend-saturation backdrop-blur-xl backdrop:slide-out-to-right-72 bg-gray-100 flex flex-wrap lg:flex-nowrap py-4  items-center justify-center shadow-xl shadow-[rgba(0,0,0,0.1)] gap-2'>
+            <h3 className='text-3xl xl:text-6xl text-black font-bold px-2 text-center'>
                 {paper === "bd-protidin" && "বাংলাদেশ প্রতিদিন"}
                 {paper === "somokal" && "সমকাল"}
                 {paper === "jugantor" && "যুগান্তর"}

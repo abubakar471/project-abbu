@@ -10,7 +10,7 @@ export default function Home() {
       </div>
 
       <div className="w-[95%] mx-auto py-10 lg:py-4">
-        <div className="flex items-center justify-center flex-wrap xl:flex-nowrap gap-6 min-h-screen">
+        <div className="flex items-center justify-center flex-wrap gap-6 min-h-screen">
           <HomeCard paper={"bd-protidin"} />
           <HomeCard paper={"somokal"} />
           <HomeCard paper={"jugantor"} />
